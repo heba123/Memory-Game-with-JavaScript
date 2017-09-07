@@ -1,0 +1,65 @@
+﻿
+
+table {
+   
+    margin:10px auto;
+    
+    padding-left:10px;
+    width:400px; 
+    height:250px;
+
+ 
+}
+
+table td {
+  
+ 
+  text-align:center;
+  margin:10px;
+  
+  box-shadow:deeppink 1px 1px 1px inset,yellow -1px -1px 1px inset; 
+ 
+    
+}
+td:active {
+        -webkit-transform: scale(1.3);
+       
+        -webkit-transition: all 2s;
+}
+ #startGame, #backbtn, #nextLevel, #main,#again{
+        padding: 5px;
+		margin:1px auto;
+		color:deeppink;
+        font:bold 15px tahoma;
+		border:2px double pink ;
+		text-align:center;
+        margin-left:30px;
+        width:150px;
+        background-color:lightpink;
+        box-shadow:deeppink 2px 2px 2px , deeppink -2px -2px 2px;
+}
+ #startGame:active , #backbtn:active{
+    -webkit-transform:scale(2);
+    -webkit-transition:all 2s;
+}
+
+.gameimg{
+    width:140px;
+     height:120px; 
+}
+
+
+#welcomeText ,#winText ,#timer ,#continue{
+    color: blue;
+    text-align: center;
+    font: bold 20px tahoma;
+    margin: 10px;
+    padding: 10px;
+    text-shadow:deeppink 1px 1px 1px , yellow -1px -1px 3px ; 
+}
+
+body{
+	background-color:pink;
+    background-image:url("Images/bg8.jpg");
+    
+}
